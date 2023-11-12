@@ -22,6 +22,10 @@ public class IListAppl {
         // список с данными типа String
         IList<String> listOfCities = new IListImpl<>();
         listOfCities.add("Berlin");
+        listOfCities.add("Frankfurt");
+        listOfCities.add("München");
+        listOfCities.add("Düsseldorf");
+
         // ...
         System.out.println(listOfCities.size());
         System.out.println(listOfCities.isEmpty());
