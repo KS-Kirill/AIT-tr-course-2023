@@ -4,7 +4,6 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/for_myself/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/AIT_01_september/lesson_05/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/AIT_01_september/lesson_06/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/AIT_01_september/lesson_07/code" isTestSource="false" />
@@ -42,6 +41,12 @@
       <sourceFolder url="file://$MODULE_DIR$/AIT_03_november/lesson_42/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/AIT_03_november/lesson_43/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/AIT_03_november/lesson_45/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AIT_03_november/lesson_45/lesson_46/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AIT_03_november/lesson_46/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AIT_03_november/lesson_47/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/marafon/code" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/AIT_02_october/lesson_31/code/practice/company_v1" />
+      <excludeFolder url="file://$MODULE_DIR$/AIT_02_october/lesson_32/code/homework_32" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
