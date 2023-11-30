@@ -48,19 +48,17 @@ public class TolstoyHashMap {
 
         //посчитаем количество букв по алфавиту от А до Я
         System.out.println("========Letters========");
-        Map<Character, Integer> resMapLetters = new HashMap<>();
-        for (String word : words) {
-            for (int i = 0; i < word.length(); i++) {
-                char letter = word.charAt(i);
+        Map<Character, Integer> resMapLetters = new HashMap<>();//создаём мапу
+        for (String word : words) {//проходим по массиву
+            for (int i = 0; i < word.length(); i++) {//проходим по слову
+                char letter = word.charAt(i);//получаем букву
                 if (!resMapLetters.containsKey(letter)) {
-                    resMapLetters.put(letter, 1);
+                    resMapLetters.put(letter, 1);//если буквы нет в мапе, то добавляем её и счётчик
                 } else {
-                    resMapLetters.put(letter, resMapLetters.get(letter) + 1);
+                    resMapLetters.put(letter, resMapLetters.get(letter) + 1);//если буква есть в мапе, то увеличиваем счётчик
                 }
             }
         }
         System.out.println(resMapLetters);
-
-
     }
 }
